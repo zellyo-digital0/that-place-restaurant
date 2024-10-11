@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="description" content="Web Content">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="author">
+        <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="content-script-type" content="text/javascript">
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        <title>That Place</title>
+        <meta name="description" content="Page description. No longer than 155 characters." />
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="The Name or Title Here">
+        <meta itemprop="description" content="This is the page description">
+        <meta itemprop="image" content="http://www.example.com/image.jpg">
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@publisher_handle">
+        <meta name="twitter:title" content="Page Title">
+        <meta name="twitter:description" content="Page description less than 200 characters">
+        <meta name="twitter:creator" content="@author_handle">
+        <!-- Twitter summary card with large image must be at least 280x150px -->
+        <meta name="twitter:image:src" content="http://www.example.com/image.jpg">
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Title Here" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://www.example.com/" />
+        <meta property="og:image" content="http://example.com/image.jpg" />
+        <meta property="og:description" content="Description Here" />
+        <meta property="og:site_name" content="Site Name, i.e. Moz" />
+        <meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
+        <meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
+        <meta property="article:section" content="Article Section" />
+        <meta property="article:tag" content="Article Tag" />
+        <meta property="fb:admins" content="Facebook numberic ID" />
+        
+        <!--  <link rel="apple-touch-icon" sizes="180x180" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assests/images/fav_icon.png"> -->
+        <!-- slick slider css cdn link -->
+        <link rel="stylesheet" href="assests/css/fullpage.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- Custom css -->
+        <link rel="stylesheet" href="assests/css/style.css">
+        <!-- Responsive midea css -->
+        <link rel="stylesheet" href="assests/css/responsive.css">
+        
+    </head>
+    <body>
+        <!-- header start -->
+        <header>
+            <!--     <ul id="menu">
+                <li data-menuanchor="Home"><a href="#Home">Home</a></li>
+                <li data-menuanchor="AboutUs"><a href="#AboutUs">About Us</a></li>
+                <li data-menuanchor="TheChef"><a href="#TheChef">The Chef</a></li>
+                <li data-menuanchor="Menu"><a href="#Menu">Menu</a></li>
+                <li data-menuanchor="Opening"><a href="#Opening">Opening Hours</a></li>
+                <li data-menuanchor="Contact"><a href="#Contact">CONTACT</a></li>
+            </ul> -->
+            <nav class="navbar   navbar-expand-lg ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-block">
+                        <ul class="navbar-nav justify-content-end d-block" id="menu">
+                            <li data-menuanchor="Home"><a href="#Home">Home</a></li>
+                            <li data-menuanchor="AboutUs"><a href="#AboutUs" >About Us</a></li>
+                            <li data-menuanchor="TheChef"><a href="#TheChef" >The Chef</a></li>
+                            <li data-menuanchor="Menu"><a href="#Menu" >Menu</a></li>
+                            <li data-menuanchor="Opening"><a href="#Opening" >Opening Hours</a></li>
+                            <li data-menuanchor="Contact"><a href="#Contact" >CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- header end -->
+        <div class="right-social fixed-end">
+            <ul class="reserve d-flex">
+                <li><a href="">Reserve</a></li>
+                <li><a href="">Subscribe</a></li>
+            </ul>
+            <ul class="social d-flex">
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div id="fullpage">
+            <div class="section active" id="home">
+                <div class="container text-center" data-aos-duration="1200" data-aos-easing="ease-in-sine" data-aos="fade-down">
+                    <div class="home-inner">
+                        <img src="assests/images/logo.png" alt="">
+                        <h2 >Welcome to our</h2>
+                        <h1>Restaurant</h1>
+                        <p class="text-uppercase">the best Multi Cuisine Restaurant</p>
+                        <ul class="d-flex justify-content-center">
+                            <li><a href="">Book Table </a></li>
+                            <li><a href="">View Menu </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section " id="about">
+                <div class="container">
+                    <div class="about-wrapp">
+                        <!-- row start -->
+                        <div class="row">
+                            <!-- single item start -->
+                            <div class="col-lg-7 align-self-center">
+                                <div class="img-box"  data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-right">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="assests/images/2.jpg" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="col mt-5">
+                                            <img src="assests/images/3.jpg" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                            <!-- single item start -->
+                            <div class="col-lg-5 align-self-center">
+                                <div class="text-box"  data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-left">
+                                    <h4>WHO WE ARE</h4>
+                                    <h2>Japanese Cuisines & Sushi Bar.</h2>
+                                    <p>Placerat dictum curabitur ridiculus laoreet tortor. Ipsum pellentesque inceptos porta phasellus quisque cubilia nullam vestibulum. Nunc dis eros congue et eleifend natoque.</p>
+                                    <p>Placerat dictum curabitur ridiculus laoreet tortor. Ipsum pellentesque inceptos porta phasellus quisque cubilia nullam vestibulum. Nunc dis eros congue et eleifend natoque.</p>
+                                    <a href="">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                        </div>
+                        <!-- row end -->
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="the-chef">
+                <!-- THE TEAM start -->
+                <div class="container">
+                    <div class="box text-center">
+                        <div class="top-box" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-down">
+                            <h2>The Chef</h2>
+                            <p>Experience & Commitment</p>
+                        </div>
+                        <!-- row start -->
+                        <div class="row justify-content-center">
+                            <!-- single item start -->
+                            <div class="col-lg-4">
+                                <div class="item shadow" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-right">
+                                    <img src="assests/images/user2.jpg" alt="img" class="img-fluid">
+                                    <div class="box-text">
+                                        <h4><a href="">Mason Robinson</a></h4>
+                                        <h6>Chef</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis</p>
+                                        <ul class="d-flex justify-content-center">
+                                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                            <!-- single item start -->
+                            <div class="col-lg-4  mt-lg-0 mt-5">
+                                <div class="item shadow" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-left">
+                                    <img src="assests/images/user.jpg" alt="img" class="img-fluid">
+                                    <div class="box-text">
+                                        <h4><a href="">Mason Robinson</a></h4>
+                                        <h6>Chef</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis</p>
+                                        <ul class="d-flex justify-content-center">
+                                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                        </div>
+                        <!-- row end -->
+                    </div>
+                </div>
+                <!-- THE TEAM end -->
+            </div>
+            <div class="section" id="menu-list">
+                <!-- OUR MENUS start -->
+                <div class="container">
+                    <div class="menu-wrapper">
+                        <div class="top-box text-center" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-down">
+                            <h2>Our Incredible Food</h2>
+                            <p>Tasty & Fresh</p>
+                        </div>
+                        <div class="box" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-up">
+                            <div class="inner-item">
+                                <!-- row start -->
+                                <div class="row">
+                                    <!-- single item start -->
+                                    <div class="col-lg-6">
+                                        <div class="media justify-content-between" >
+                                            <div class="media-body">
+                                                <h4>Salmon Aburi (4 pcs)</h4>
+                                                <p>Torched salmon nigiri, teriyaki sauce, spicy mayo, spring onion, sesame seed & togarashi</p>
+                                            </div>
+                                            <h6 class="price">$24</h6>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6 mt-04">
+                                        <div class="media justify-content-between">
+                                            <div class="media-body">
+                                                <h4>Salmon Aburi (4 pcs)</h4>
+                                                <p>Torched salmon nigiri, teriyaki sauce, spicy mayo, spring onion, sesame seed & togarashi</p>
+                                            </div>
+                                            <h6 class="price">$24</h6>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6  mt-4">
+                                        <div class="media justify-content-between">
+                                            <div class="media-body">
+                                                <h4>Salmon Aburi (4 pcs)</h4>
+                                                <p>Torched salmon nigiri, teriyaki sauce, spicy mayo, spring onion, sesame seed & togarashi</p>
+                                            </div>
+                                            <h6 class="price">$24</h6>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6  mt-4">
+                                        <div class="media justify-content-between">
+                                            <div class="media-body">
+                                                <h4>Salmon Aburi (4 pcs)</h4>
+                                                <p>Torched salmon nigiri, teriyaki sauce, spicy mayo, spring onion, sesame seed & togarashi</p>
+                                            </div>
+                                            <h6 class="price">$24</h6>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6  mt-4">
+                                        <div class="media justify-content-between">
+                                            <div class="media-body">
+                                                <h4>Salmon Aburi (4 pcs)</h4>
+                                                <p>Torched salmon nigiri, teriyaki sauce, spicy mayo, spring onion, sesame seed & togarashi</p>
+                                            </div>
+                                            <h6 class="price">$24</h6>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6  mt-4">
+                                        <div class="media justify-content-between">
+                                            <div class="media-body">
+                                                <h4>Salmon Aburi (4 pcs)</h4>
+                                                <p>Torched salmon nigiri, teriyaki sauce, spicy mayo, spring onion, sesame seed & togarashi</p>
+                                            </div>
+                                            <h6 class="price">$24</h6>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    
+                                </div>
+                                <!-- row end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- OUR MENUS end -->
+            </div>
+            <div class="section" id="opening">
+                <div class="container">
+                    <div class="Opening-hours">
+                        <div class="row">
+                            <div class="col-lg-4 align-self-center">
+                                <div class="item-left" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-right">
+                                    <h2>Opening hours</h2>
+                                    <h6>Now they only open for 2 Slot</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <h4 class="mb-0">Sunday</h4>
+                                        <p class="mb-0">Close</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h4 class="mb-0">Saturday</h4>
+                                        <p class="mb-0">6:00pm to 8:00pm <br>8:00pm to 10:00pm</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h4 class="mb-0">Monday</h4>
+                                        <p class="mb-0">6:00pm to 8:00pm <br>8:00pm to 10:00pm</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h4 class="mb-0">Tues Day</h4>
+                                        <p class="mb-0">6:00pm to 8:00pm <br>8:00pm to 10:00pm</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h4 class="mb-0">Wednesday</h4>
+                                        <p class="mb-0">6:00pm to 8:00pm <br>8:00pm to 10:00pm</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h4 class="mb-0">Thursday</h4>
+                                        <p class="mb-0">6:00pm to 8:00pm <br>8:00pm to 10:00pm</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between border-0">
+                                        <h4 class="mb-0">Friday</h4>
+                                        <p class="mb-0">6:00pm to 8:00pm <br>8:00pm to 10:00pm</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="">Book Now!</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-8 align-self-center  mt-lg-0 mt-5" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-left">
+                                <div class="item-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="assests/images/2.jpg" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="assests/images/3.jpg" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="contact">
+                <div class="container">
+                    <div class="footer-body">
+                        <!-- row start -->
+                        <div class="row text-center">
+                            <!-- single item start -->
+                            <div class="col-lg-4">
+                                <div class="item" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-right">
+                                    <h4>Our Location</h4>
+                                    <p>Jl. Sunset Road No.108A, Kuta, Badung, Bali</p>
+                                    <a href="tel:(+62) 8123 456 6789">(+62) 8123 456 6789</a>
+                                    <a href="mailto: shokusei@domain.com">shokusei@domain.com</a>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                            <!-- single item start -->
+                            <div class="col-lg-4  mt-lg-0 mt-5">
+                                <div class="mid-item" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-down">
+                                    <img src="assests/images/logo.png" alt="img" class="img-fluid">
+                                    <ul class="d-flex justify-content-center">
+                                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                            <!-- single item start -->
+                            <div class="col-lg-4 mt-lg-0 mt-5">
+                                <div class="item-google" data-aos-offset="0" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos="fade-left">
+                                    <div class="google-map ratio ratio-16x9">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805196.5106799493!2d144.49266899075678!3d-37.970153973203324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sro!4v1652720589921!5m2!1sen!2sro" width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                        </div>
+                        <!-- row end -->
+                        
+                    </div>
+                    <footer>
+                        <p class="mb-0 text-center">Copyright © 2022 || Company name</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <!--  jQuery js-->
+        <script src="assests/js/jquery.min.js"></script>
+        <!-- bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- slick slider js cdn link -->
+        <script src="assests/js/fullpage.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- fontawesome icon -->
+        <script src="assests/fontawesome/js/all.js"></script>
+        <!-- coustom js -->
+        <script src="assests/js/script.js"></script>
+        <script>
+        AOS.init();
+        </script>
+        <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+        anchors: ['Home', 'AboutUs', 'TheChef', 'Menu', 'Opening', 'Contact'],
+        menu: '#menu',
+        slidesNavigation: true,
+        lazyLoad: true,
+        licenseKey: 'i getted a license',
+        css3:false,
+        responsiveWidth: 1024,
+        scrollingSpeed: 1050,
+        credits: {enabled: false},
+        onLeave: function(){
+        jQuery('.section [data-aos]').removeClass("aos-animate");
+        },
+        onSlideLeave: function(){
+        jQuery('.slide [data-aos]').removeClass("aos-animate");
+        },
+        afterSlideLoad: function(){
+        jQuery('.slide.active [data-aos]').addClass("aos-animate");
+        },
+        afterLoad: function(){
+        jQuery('.section.active [data-aos]').addClass("aos-animate");
+        //jQuery('.fp-table.active .aos-init').addClass('aos-animate');
+        }
+        });
+        </script>
+        <script>
+        $("header .offcanvas").click(function(){
+        $('.offcanvas').offcanvas('hide');
+        });
+        </script>
+    </body>
+</html>
